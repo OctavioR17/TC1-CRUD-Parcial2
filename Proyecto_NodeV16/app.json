@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "CRUDTC1",
+    "slug": "CRUDTC1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rochaluis021231.CRUDTC1"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "96ed806c-1b90-4fdb-bd64-71d54f2e30f9"
+      }
+    },
+    "plugins":[ 
+      [ "expo-build-properties", 
+      { "android": { 
+        "usesCleartextTraffic": true 
+        } 
+      } 
+      ] 
+    ]
+  }
+}
